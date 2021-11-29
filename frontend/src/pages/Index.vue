@@ -1,6 +1,6 @@
 <template>
-  <q-page class="flex flex-center">
-    hey
+  <q-page class="main-cnt flex flex-center">
+    
   </q-page>
 </template>
 
@@ -11,3 +11,13 @@ export default defineComponent({
   name: 'PageIndex'
 })
 </script>
+
+<style scoped>
+.main-cnt {
+  background: url(../assets/patterns/blue-snow.png);
+  /*
+  background-repeat: repeat;
+  background-size: contain;
+  */
+}
+</style>

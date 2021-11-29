@@ -4,22 +4,19 @@
       <h3 class="log-title">
         Qui va là ?
       </h3>
-
       <div class="row justify-center">
         <div class="input-cnt" v-bind:class="{'input-invalid': isPasswordValid === false}">
           <input 
             type="password" 
             name="password" 
             ref="inputPw"
-            placeholder="le mot magique ?" 
+            placeholder="le mot magique" 
             v-model="password" 
             class="input-pw"
-            v-on:change="updatePassword"
             v-on:keyup.enter="connect"
           >
         </div>
       </div>
-        
       <div class="btn-cnt flex-cnt-row align-center">
         <button 
           class="auth-btn bg-secondary" 
@@ -30,7 +27,13 @@
           Connexion
         </button>
       </div>
-
+      <!--
+      <img class="left-gif" src="../assets/images/gifts-1.gif" alt="Gifts gif">
+      -->
+      <!--
+      <img class="right-gif" src="../assets/images/hug.gif" alt="Hug gif">
+      -->
+      <img class="santa-gif" src="../assets/images/santa.gif" alt="Santa gif">
     </div>
   </div>
 </template>
@@ -44,8 +47,12 @@ export default {
     return {
       thePassword: pWord,
       password: '',
-      isPasswordValid: false,
-      wrongAttempt: false,
+      isPasswordValid: null,
+    }
+  },
+  watch: {
+    password: function() {
+      this.updatePassword();
     }
   },
   methods: {
@@ -54,9 +61,11 @@ export default {
         localStorage.setItem('auth', true);
         this.$router.push("/");
       }
+      else {
+        this.isPasswordValid = false;
+      }
     },
     updatePassword() {
-      console.log('changed')
       this.wrongAttempt = false;
       if (this.password) {
         if (this.password.length) {
@@ -88,11 +97,12 @@ export default {
   border: 1px solid #c6d2d9;
   box-sizing: border-box;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  position: relative;
 }
 
 .log-title {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 75px;
+  margin-bottom: 35px;
   text-align: center;
   color: #d97171;
   font-family: "Dancing", cursive, Arial, "Roboto";
@@ -169,8 +179,39 @@ export default {
   cursor: default;
 }
 
+
+.input-invalid {
+  border: 2px solid red!important;
+  outline-color: red;
+}
+
 .flex-cnt-row {
   display: flex;
   justify-content: space-around;
+}
+
+.right-gif {
+  position: absolute;
+  right: 0;
+  max-width: 100%;
+  height: 100px;
+}
+
+/*
+.left-gif {
+  position: fixed;
+  left: 20px;
+  bottom: 0;
+  max-width: 100%;
+  height: 250px;
+}
+*/
+
+.santa-gif {
+  position: absolute;
+  right: 10px;
+  bottom: 0px;
+  max-width: 100%;
+  height: 65px;
 }
 </style>
