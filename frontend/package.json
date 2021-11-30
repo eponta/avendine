@@ -1,8 +1,8 @@
 {
-  "name": "frontend",
-  "version": "0.0.1",
-  "description": "A Quasar Framework app",
-  "productName": "Quasar App",
+  "name": "avendine",
+  "version": "1.0.1",
+  "description": "Calendrier de l'Avendine",
+  "productName": "Avendine",
   "author": "eponta <36237788+eponta@users.noreply.github.com>",
   "private": true,
   "scripts": {

@@ -253,7 +253,7 @@ export default defineComponent({
   animation-name: fog-m
     DaySlotv3;
   background-position-x: 206px;
-  bottom: 0px;
+  bottom: -20px;
 }
 .fog8 {
   animation-name: fog-mv1;
@@ -268,7 +268,7 @@ export default defineComponent({
 .fog10 {
   animation-name: fog-mv1;
   background-position-x: 304px;
-  bottom: -5px;
+  bottom: -15px;
 }
 .fog11 {
   animation-name: fog-mv3;

@@ -49,7 +49,7 @@ module.exports = configure(function (ctx) {
 
       // transpile: false,
       
-      publicPath: process.env.NODE_ENV === "production" ? "/avendine/frontend/" : "/",
+      publicPath: process.env.NODE_ENV === "production" ? "/avendine/" : "/",
 
       // Add dependencies for transpiling with Babel (Array of string/regex)
       // (from node_modules, which are by default not transpiled).
@@ -139,37 +139,37 @@ module.exports = configure(function (ctx) {
       },
 
       manifest: {
-        name: `Quasar App`,
-        short_name: `Quasar App`,
-        description: `A Quasar Framework app`,
+        name: `Avendine`,
+        short_name: `Avendine`,
+        description: `Calendrier de l'Avendine`,
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
         theme_color: '#027be3',
         icons: [
           {
-            src: 'icons/icon-128x128.png',
-            sizes: '128x128',
+            src: 'icons/favicon-16x16.png',
+            sizes: '16x16',
             type: 'image/png'
           },
           {
-            src: 'icons/icon-192x192.png',
+            src: 'icons/ifavicon-32x32.png',
+            sizes: '32x32',
+            type: 'image/png'
+          },
+          {
+            src: 'icons/android-chrome-192x192.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: 'icons/icon-256x256.png',
-            sizes: '256x256',
-            type: 'image/png'
-          },
-          {
-            src: 'icons/icon-384x384.png',
-            sizes: '384x384',
-            type: 'image/png'
-          },
-          {
-            src: 'icons/icon-512x512.png',
+            src: 'icons/android-chrome-512x512.png',
             sizes: '512x512',
+            type: 'image/png'
+          },
+          {
+            src: 'icons/apple-touch-icon.png',
+            sizes: '180x180',
             type: 'image/png'
           }
         ]
@@ -206,7 +206,7 @@ module.exports = configure(function (ctx) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'frontend'
+        appId: 'avendine'
       },
 
       // "chain" is a webpack-chain object https://github.com/neutrinojs/webpack-chain
