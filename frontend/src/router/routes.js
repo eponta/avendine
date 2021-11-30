@@ -1,7 +1,7 @@
 const routes = [
   {
     path: '/cqui',
-    component: () => import('layouts/CQui.vue'),
+    component: () => import('layouts/Login.vue'),
   },
   {
     path: '/',

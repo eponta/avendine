@@ -42,7 +42,6 @@
 import { pWord } from "../params/constants.js"
 
 export default {
-  name: 'CQui',
   data() {
     return {
       thePassword: pWord,

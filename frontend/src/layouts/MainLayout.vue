@@ -33,6 +33,13 @@ export default defineComponent({
   font-size: 28px;
   font-weight: 600;
 }
+
+.tb-day {
+  font-family: Dancing;
+  font-size: 22px;
+  font-weight: 600;
+}
+
 .hd-gif {
   position: absolute;
   bottom: 14px;
@@ -40,53 +47,44 @@ export default defineComponent({
   margin: 0px 5px;
 }
 
-@keyframes inf-lateral {
-  0% {
-    margin-right: 0px;
+@media (max-width: 600px) {
+  .tb-title {
+    font-size: 18px;
   }
-  4% {
-    margin-right: 46px;
+  .tb-day {
+    font-size: 16px;
   }
-  5% {
-    margin-right: 50px;
-  }
-  6% {
-    margin-right: 46px;
-  }
-  10% {
-    margin-right: 0px;
-  }
-  14% {
-    margin-right: 18px;
-  }
-  15% {
-    margin-right: 20px;
-  }
-  16% {
-    margin-right: 18px;
-  }
-  20% {
-    margin-right: 0px;
-  }
-  25% {
-    margin-right: 5px;
-  }
-  30% {
-    margin-right: 0px;
-  }
-  100% {
-    margin-right: 0px;
+  .hd-gif {
+    height: 75%;
+    bottom: 18px;
   }
 }
 
-.tb-day {
-  font-family: Dancing;
-  font-size: 22px;
-  font-weight: 600;
+@keyframes inf-lateral {
+  0% {
+    transform: translateX(0%) rotateY(0deg);
+  }
+  30% {
+    transform: translateX(100%) rotateY(0deg);
+  }
+  31% {
+    transform: translateX(100%) rotateY(180deg);
+  }
+  60% {
+    transform: translateX(0%) rotateY(1800deg);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.walk-gif {
+  position: absolute;
+  height: 100%;
+  bottom: 3px;
+  transform: translateX(0%) rotateX(0deg);
   animation-name: inf-lateral;
-  animation-delay: 3s;
-  animation-duration: 4.5s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation-timing-function: ease-out;
 }
 </style>
