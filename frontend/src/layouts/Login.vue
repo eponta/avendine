@@ -213,4 +213,42 @@ export default {
   max-width: 100%;
   height: 65px;
 }
+
+@media (max-width: 600px) {
+  .log-cnt {
+    background: #fdfdfd88;
+    width: 280px;
+    height: 270px;
+    min-height: 270px;
+  }
+
+  .log-title {
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+
+  .input-cnt {
+    margin: 3px 0px;
+    width: 240px;
+    height: 30px;
+  }
+
+  .input-pw {
+    width: 200px;
+  }
+
+  .auth-btn {
+    height: 28px;
+    width: 240px;
+    font-size: 17px;
+  }
+
+  .santa-gif {
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    max-width: 100%;
+    height: 65px;
+  }
+}
 </style>

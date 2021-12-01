@@ -18,10 +18,11 @@ export const DayList = Object.freeze([
   {
     id: 1,
     date: 2,
-    question: "Je suis un village blanc méditérannéen, mais pas de ceux que tu connais, je suis en effet peuplé d'îliens, non loin du passage de l'Odyssée.",
-    answer: "mykonos",
-    gift: "Chanson du jour",
-    text: "En attendant de pouvoir la reprendre avec toi, je te laisse de quoi répéter. À demain.",
+    question: "",
+    answer: "",
+    gift: "",
+    text: "",
+    type: "",
     //
     nbCol: 12,//max9
     xStripeTop: 45,
@@ -33,8 +34,8 @@ export const DayList = Object.freeze([
     date: 3,
     question: "Je suis un village blanc méditérannéen, mais pas de ceux que tu connais, je suis en effet peuplé d'îliens, non loin du passage de l'Odyssée.",
     answer: "mykonos",
-    gift: "Chanson du jour",
-    text: "En attendant de pouvoir la reprendre avec toi, je te laisse de quoi répéter. À demain.",
+    gift: "",
+    text: "",
     //
     nbCol: 1,//max9
     xStripeTop: 35,
