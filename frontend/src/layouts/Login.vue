@@ -58,7 +58,7 @@ export default {
     connect() {
       if (this.password === this.thePassword) {
         localStorage.setItem('auth', true);
-        this.$router.push("/");
+        this.$router.push("/calendrier");
       }
       else {
         this.isPasswordValid = false;

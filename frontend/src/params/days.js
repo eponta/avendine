@@ -3,9 +3,12 @@ export const DayList = Object.freeze([
     id: 0,
     date: 1,
     question: "Je suis un village blanc méditérannéen, mais pas de ceux que tu connais, je suis en effet peuplé d'îliens, non loin du passage de l'Odyssée.",
+    placeholder: "Qui suis-je ?",
     answer: "mykonos",
     gift: "Chanson du jour",
     text: "En attendant de pouvoir la reprendre avec toi, je te laisse de quoi répéter. À demain.",
+    type: "audio",
+    contentUrl: "audio/mykonos.mp3",
     //
     nbCol: 5,//max9
     xStripeTop: 50,

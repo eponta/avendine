@@ -9,9 +9,15 @@
       <img class="ruban" src="../assets/images/ruban.png" alt="Ruban cadeau">
     </div>
 
-    <button class="open-btn" :disabled="matchDate">
+    <button class="open-btn" :disabled="!matchDate" @click="openDay()">
       Ouvrir
     </button>
+
+    <router-view v-if="matchDate" v-slot="{ Component }">
+      <transition name="fade" mode="out-in">
+        <component :is="Component" />
+      </transition>
+    </router-view>
 
     <div class="g-strp-x g-strp" :style="{top: `${getXStripeTop}px`}"></div>
     <div class="g-strp-y g-strp" :style="{left: `${getYStripeLeft}px`}"></div>
@@ -42,8 +48,14 @@ export default {
     },
     matchDate() {
       let currentDate = new Date().getDate();
-      // return Number.parseInt(currentDate) !== Number.parseInt(this.day.date);
-      return Number.parseInt(currentDate) !== Number.parseInt(this.day.date) + 29;
+      return Number.parseInt(currentDate) === Number.parseInt(this.day.date);
+    }
+  },
+  methods: {
+    openDay() {
+      if (this.matchDate) {
+        this.$router.push(`/cadeau/${this.day.date}`)
+      }
     }
   }
 }
@@ -55,7 +67,7 @@ export default {
   width: 300px;
   height: 175px;
   padding: 15px 10px;
-  z-index: 1007;
+  z-index: auto;
 
   color: #ffffff;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
@@ -193,5 +205,17 @@ button:hover {
     width: 150px;
     z-index: 1010;
   }
+}
+
+/* TRANSITION ROUTER */
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 1s ease;
+}
+
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>
