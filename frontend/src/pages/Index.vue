@@ -1,5 +1,6 @@
 <template>
   <q-page class="main-cnt">
+    <div class="content">
     <div class="title-row">
       <h2>
         Bienvenue sur le calendrier de l'Avendine
@@ -17,21 +18,21 @@
         />
       </div>
     </div>
+    </div>
     
-
+    <div class="foot-fog fog1"></div>
+    <div class="foot-fog fog2"></div>
+    <div class="foot-fog fog3"></div>
+    <div class="foot-fog fog4"></div>
+    <div class="foot-fog fog5"></div>
+    <div class="foot-fog fog6"></div>
+    <div class="foot-fog fog7"></div>
+    <div class="foot-fog fog8"></div>
+    <div class="foot-fog fog9"></div>
+    <div class="foot-fog fog10"></div>
+    <div class="foot-fog fog11"></div>
+    <div class="foot-fog fog12"></div>
   </q-page>
-  <div class="foot-fog fog1"></div>
-  <div class="foot-fog fog2"></div>
-  <div class="foot-fog fog3"></div>
-  <div class="foot-fog fog4"></div>
-  <div class="foot-fog fog5"></div>
-  <div class="foot-fog fog6"></div>
-  <div class="foot-fog fog7"></div>
-  <div class="foot-fog fog8"></div>
-  <div class="foot-fog fog9"></div>
-  <div class="foot-fog fog10"></div>
-  <div class="foot-fog fog11"></div>
-  <div class="foot-fog fog12"></div>
 </template>
 
 <script>

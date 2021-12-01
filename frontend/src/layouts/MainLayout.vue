@@ -8,7 +8,7 @@
         </q-toolbar-title>
 
         <div class="tb-day">
-          J{{ new Date().toLocaleDateString().split("/")[0] }}
+          J{{ Number.parseInt(new Date().toLocaleDateString().split("/")[0]) }}
         </div>
       </q-toolbar>
     </q-header>
