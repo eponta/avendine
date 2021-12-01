@@ -25,6 +25,7 @@ export default route(function (/* { store, ssrContext } */) {
       }
     },
     routes,
+    base: "/avendine/",
 
     // Leave this as is and make changes in quasar.conf.js instead!
     // quasar.conf.js -> build -> vueRouterMode
