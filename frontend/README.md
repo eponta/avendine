@@ -1,4 +1,4 @@
-# Quasar App (frontend)
+# Avendine (frontend)
 
 A Quasar Framework app
 
