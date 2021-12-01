@@ -167,6 +167,7 @@ export default {
   color: #fdfdfd;
   font-family: Dancing;
   font-size: 48px;
+  margin: 50px 0px;
   text-shadow: 0px 0px 5px #ffffff93;
 }
 
@@ -205,6 +206,8 @@ export default {
   text-align: center;
   font-family: Dancing;
   font-size: 30px;
+  padding: 0px 30px;
+  margin: 10px 0px;
   text-shadow: 0px 0px 5px #ffffff38;
 }
 
@@ -250,6 +253,138 @@ export default {
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+}
+
+@media (max-width: 992px) {
+  .cadeau-cnt {
+    height: 400px;
+    width: 700px;
+    opacity: 1;
+  }
+
+  .back-icon {
+    height: 30px;
+  }
+
+  .title {
+    margin: 25px 0px;
+    font-size: 40px;
+  }
+
+  .question-col {
+    padding: 0px 20px;
+  }
+  .question {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+
+  .gift-text {
+    font-size: 26px;
+    padding: 0px 20px;
+  }
+
+  .dl-audio-icon {
+    height: 40px;
+    margin: 0px 30px;
+  }
+
+  .play-icon {
+    height: 40px;
+    margin: 0px 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cadeau-cnt {
+    height: 325px;
+    width: 500px;
+
+    padding: 15px;
+  }
+
+  .back-icon {
+    height: 25px;
+  }
+
+  .title {
+    font-size: 32px;
+    margin: 15px 0px;
+  }
+
+  .question-col {
+    padding: 0px 10px;
+  }
+  .question {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .gift-text {
+    font-size: 24px;
+    padding: 0px 10px;
+    margin: 10px 0px;
+  }
+
+  .gift-content {
+    padding: 20px;
+  }
+
+  .dl-audio-icon {
+    height: 35px;
+    margin: 0px 30px;
+  }
+
+  .play-icon {
+    height: 35px;
+    margin: 0px 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cadeau-cnt {
+    height: 300px;
+    width: 290px;
+
+    padding: 10px;
+  }
+
+  .back-icon {
+    height: 25px;
+  }
+
+  .title {
+    font-size: 26px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  .question-col {
+    padding: 0px 5px;
+  }
+  .question {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .gift-text {
+    font-size: 18px;
+    padding: 0px 5px;
+    margin: 10px 0px 5px 0px;
+  }
+
+  .gift-content {
+    padding: 10px;
+  }
+
+  .dl-audio-icon {
+    height: 35px;
+    margin: 0px 30px;
+  }
+
+  .play-icon {
+    height: 35px;
+    margin: 0px 30px;
+  }
 }
 
 /* TRANSITION ROUTER */
