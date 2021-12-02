@@ -32,10 +32,12 @@ export const DayList = Object.freeze([
   {
     id: 2,
     date: 3,
-    question: "Je suis un village blanc méditérannéen, mais pas de ceux que tu connais, je suis en effet peuplé d'îliens, non loin du passage de l'Odyssée.",
-    answer: "mykonos",
-    gift: "",
-    text: "",
+    question: "Je me trouve entre 78 et 80, mais je ne suis pas 79.",
+    placeholder: "Qui suis-je ?",
+    answer: "et",
+    gift: "Journée massage",
+    text: "Massages sur demande, illimités en temps et en nombre, jusqu'à 23h59",
+    type: "text",
     //
     nbCol: 1,//max9
     xStripeTop: 35,
@@ -45,10 +47,12 @@ export const DayList = Object.freeze([
   {
     id: 3,
     date: 4,
-    question: "Je suis un village blanc méditérannéen, mais pas de ceux que tu connais, je suis en effet peuplé d'îliens, non loin du passage de l'Odyssée.",
-    answer: "mykonos",
-    gift: "Chanson du jour",
-    text: "En attendant de pouvoir la reprendre avec toi, je te laisse de quoi répéter. À demain.",
+    question: "",
+    placeholder: "",
+    answer: "",
+    gift: "",
+    text: "",
+    type: "",
     //
     nbCol: 4,//max9
     xStripeTop: 42,
