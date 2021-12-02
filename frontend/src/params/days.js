@@ -18,11 +18,11 @@ export const DayList = Object.freeze([
   {
     id: 1,
     date: 2,
-    question: "",
-    answer: "",
-    gift: "",
-    text: "",
-    type: "",
+    question: "Quelle est la plaque d'immatriculation de la voiture de ton merveilleux copain ?",
+    answer: "EP-129-NB",
+    gift: "Coffret maison",
+    text: "Ton cadeau du jour se trouve juste derrière tes (grosses) fesses...",
+    type: "text",
     //
     nbCol: 12,//max9
     xStripeTop: 45,

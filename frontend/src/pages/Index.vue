@@ -54,7 +54,7 @@ export default defineComponent({
   mounted() {
     let cDate = new Date().getDate();
     for (const day of this.days) {
-      if (day.date <= 1 + 1) {
+      if (day.date <= cDate + 1) {
         this.sortedDays.push(day);
       }
     }
