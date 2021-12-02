@@ -120,7 +120,7 @@ export default {
   },
   mounted() {
     let date = this.$route.params.id;
-    if (date && Number.parseInt(date) === new Date().getDate()) {
+    if (date && Number.parseInt(date) <= new Date().getDate()) {
       date = Number.parseInt(date);
       this.currentDay = DayList[date - 1];
       this.show = true;

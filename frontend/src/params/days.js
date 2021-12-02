@@ -62,10 +62,10 @@ export const DayList = Object.freeze([
   {
     id: 4,
     date: 5,
-    question: "Je suis un village blanc méditérannéen, mais pas de ceux que tu connais, je suis en effet peuplé d'îliens, non loin du passage de l'Odyssée.",
-    answer: "mykonos",
-    gift: "Chanson du jour",
-    text: "En attendant de pouvoir la reprendre avec toi, je te laisse de quoi répéter. À demain.",
+    question: "",
+    answer: "",
+    gift: "",
+    text: "",
     //
     nbCol: 6,//max9
     xStripeTop: 74,
