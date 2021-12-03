@@ -40,7 +40,7 @@ export const DayList = Object.freeze([
     type: "text",
     //
     nbCol: 1,//max9
-    xStripeTop: 35,
+    xStripeTop: 105,
     yStripeLeft: 70,
     titleRotate: -7,
   },
@@ -55,8 +55,8 @@ export const DayList = Object.freeze([
     type: "",
     //
     nbCol: 4,//max9
-    xStripeTop: 42,
-    yStripeLeft: 46,
+    xStripeTop: 125,
+    yStripeLeft: 25,
     titleRotate: 1,
   },
   {

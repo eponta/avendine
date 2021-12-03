@@ -48,7 +48,7 @@ export default {
     },
     matchDate() {
       let currentDate = new Date().getDate();
-      return Number.parseInt(currentDate) === Number.parseInt(this.day.date);
+      return Number.parseInt(this.day.date) <= Number.parseInt(currentDate);
     }
   },
   methods: {
