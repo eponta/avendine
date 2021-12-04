@@ -69,8 +69,8 @@ export const DayList = Object.freeze([
     text: "Qu'est-ce que les routes de voyages peuvent être longues et monotones... Avec ça plus d'ennui pour tes prochaines expéditions ! Par contre tu risques énervée de perdre tout le temps... (le cadeau est déjà dans ton sac)",
     type: "",
     //
-    nbCol: 4,//max9
-    xStripeTop: 58,
+    nbCol: 6,//max9
+    xStripeTop: 32,
     yStripeLeft: 25,
     titleRotate: 1,
   },
@@ -84,9 +84,9 @@ export const DayList = Object.freeze([
     text: "",
     type: "",
     //
-    nbCol: 4,//max9
-    xStripeTop: 58,
-    yStripeLeft: 25,
+    nbCol: 2,//max9
+    xStripeTop: 79,
+    yStripeLeft: 90,
     titleRotate: 1,
   },
   {
@@ -99,9 +99,9 @@ export const DayList = Object.freeze([
     text: "",
     type: "",
     //
-    nbCol: 4,//max9
-    xStripeTop: 58,
-    yStripeLeft: 25,
+    nbCol: 7,//max9
+    xStripeTop: 40,
+    yStripeLeft: 20,
     titleRotate: 1,
   },
   {
@@ -114,9 +114,9 @@ export const DayList = Object.freeze([
     text: "",
     type: "",
     //
-    nbCol: 4,//max9
-    xStripeTop: 58,
-    yStripeLeft: 25,
+    nbCol: 9,//max9
+    xStripeTop: 45,
+    yStripeLeft: 38,
     titleRotate: 1,
   },
   {
@@ -129,9 +129,9 @@ export const DayList = Object.freeze([
     text: "Une visite organisée le 16 décembre dans le site touristique que tu choisiras. À me communiquer avant ce soir.",
     type: "",
     //
-    nbCol: 4,//max9
-    xStripeTop: 58,
-    yStripeLeft: 25,
+    nbCol: 3,//max9
+    xStripeTop: 39,
+    yStripeLeft: 60,
     titleRotate: 1,
   },
   {
@@ -144,7 +144,7 @@ export const DayList = Object.freeze([
     text: "",
     type: "",
     //
-    nbCol: 4,//max9
+    nbCol: 6,//max9
     xStripeTop: 58,
     yStripeLeft: 25,
     titleRotate: 1,
@@ -159,7 +159,7 @@ export const DayList = Object.freeze([
     text: "Le 17 décembre, au déjeuner, je te cuisine le plat QUE TU VEUX. Choisis bien !",
     type: "",
     //
-    nbCol: 4,//max9
+    nbCol: 2,//max9
     xStripeTop: 58,
     yStripeLeft: 25,
     titleRotate: 1,
@@ -174,7 +174,7 @@ export const DayList = Object.freeze([
     text: "",
     type: "",
     //
-    nbCol: 4,//max9
+    nbCol: 5,//max9
     xStripeTop: 58,
     yStripeLeft: 25,
     titleRotate: 1,
