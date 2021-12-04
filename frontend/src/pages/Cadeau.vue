@@ -38,7 +38,7 @@
                 {{currentDay?.text}}
               </p>
             </div>
-            <div class="gift-content row flex flex-center">
+            <div class="gift-content row flex flex-center" v-if="currentDay && currentDay.type">
               <img 
                 v-if="currentDay && currentDay.type === 'audio'" 
                 class="play-icon" 
@@ -106,7 +106,7 @@ export default {
   },
   methods: {
     answerQuestion() {
-      if (this.currentDay?.answer && this.mAnswer === this.currentDay.answer) {
+      if (this.currentDay?.answer && this.mAnswer.toString().toLowerCase() === (this.currentDay.answer).toString().toLowerCase()) {
         this.showPresent = true;
       }
       else {
