@@ -34,7 +34,7 @@
           </div>
           <div class="gift-col col" v-else>
             <div class="gift-text row flex flex-center">
-              <p>
+              <p class="gift-p">
                 {{currentDay?.text}}
               </p>
             </div>
@@ -59,6 +59,7 @@
               </a>
 
               <img v-if="currentDay && currentDay.type === 'image'" src="" alt="">
+              <a :href="getLink" class="gift-link" v-if="currentDay && currentDay.type === 'link'">Lien</a>
             </div>
           </div>
         </div>
@@ -102,6 +103,9 @@ export default {
     },
     getAudioSrc() {
       return require('../assets/audio/mykonos.mp3');
+    },
+    getLink() {
+      return this.currentDay.link ? this.currentDay.link : null;
     }
   },
   methods: {
@@ -211,6 +215,16 @@ export default {
   text-shadow: 0px 0px 5px #ffffff38;
 }
 
+.gift-link {
+  z-index: 3005;
+  color: #fdfdfd;
+  text-align: center;
+  font-family: Dancing;
+  font-size: 40px;
+  padding: 0px 30px;
+  text-shadow: 0px 0px 5px #ffffff38;
+}
+
 .gift-content {
   z-index: 3005;
   padding: 20px;
@@ -284,6 +298,10 @@ export default {
     padding: 0px 20px;
   }
 
+  .gift-text p {
+    margin-bottom: 0;
+  }
+
   .dl-audio-icon {
     height: 40px;
     margin: 0px 30px;
@@ -319,6 +337,9 @@ export default {
     font-size: 24px;
     margin-bottom: 15px;
   }
+  .question p {
+    margin-bottom: 0;
+  }
 
   .gift-text {
     font-size: 24px;
@@ -326,8 +347,12 @@ export default {
     margin: 10px 0px;
   }
 
+  .gift-link {
+    font-size: 28px;
+  }
+
   .gift-content {
-    padding: 20px;
+    padding: 0px;
   }
 
   .dl-audio-icon {

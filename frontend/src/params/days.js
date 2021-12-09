@@ -65,8 +65,8 @@ export const DayList = Object.freeze([
     question: "Quand on y est, on ne sait où on est. Il n’est fait que d’eau, mais peut devenir un impénétrable rideau.",
     placeholder: "Qui suis-je? (1 mot)",
     answer: "brouillard",
-    gift: "Un petit jeu pour passer le temps",
-    text: "Qu'est-ce que les routes de voyages peuvent être longues et monotones... Avec ça plus d'ennui pour tes prochaines expéditions ! Par contre tu risques énervée de perdre tout le temps... (le cadeau est déjà dans ton sac)",
+    gift: "Une visite en Dordogne (ou autre)",
+    text: "Une visite organisée le 16 décembre dans le site touristique que tu choisiras. À me communiquer avant ce soir.",
     type: "",
     //
     nbCol: 6,//max9
@@ -77,12 +77,13 @@ export const DayList = Object.freeze([
   {
     id: 5,
     date: 6,
-    question: "",
-    placeholder: "",
-    answer: "",
-    gift: "",
-    text: "",
-    type: "",
+    question: "Dans mon premier on trouve une chaîne célèbre, mon second accueille parfois un marché, mon troisième sort de la bouche de Tarzan et mon dernier est un pronom personnel étranger.",
+    placeholder: "Mon tout est magnifique !",
+    answer: "Andalousie",
+    gift: "Un petit album photo",
+    text: "Étant donné que tu n'es pas très douée pour prendre des photos, du moins droites, je t'ai préparé un petit album avec les miennes, que je t'autorise même à utilise sur Insta.",
+    type: "link",
+    link: "https://drive.google.com/drive/folders/1e_0z9TGZuGLSpkVjSe-R1wVXvMhw6hWS?usp=sharing",
     //
     nbCol: 2,//max9
     xStripeTop: 79,
@@ -92,12 +93,12 @@ export const DayList = Object.freeze([
   {
     id: 6,
     date: 7,
-    question: "",
+    question: "Mon premier est un mot espagnol traduisant un manque, mon deuxième est une spécialité qui convient au sucré comme au salé et la fonction de mon dernier est de supporter un certain type de tissu. Mon tout se trouve en ville.",
     placeholder: "",
-    answer: "",
-    gift: "",
-    text: "",
-    type: "",
+    answer: "cinéma",
+    gift: "Popcorn à volonté !",
+    text: "Bon pour un énoooooorme paquet de pop-corn au cours du mois de décembre, pour la séance de ton choix.",
+    type: "text",
     //
     nbCol: 7,//max9
     xStripeTop: 40,
@@ -107,12 +108,12 @@ export const DayList = Object.freeze([
   {
     id: 7,
     date: 8,
-    question: "",
-    placeholder: "",
-    answer: "",
-    gift: "Un t-shirt méga cool",
-    text: "",
-    type: "",
+    question: "Je suis une héroïne lycéenne de dessin animé pour enfants (ou pas), à laquelle on retire une aile.",
+    placeholder: "Qui suis-je ?",
+    answer: "cover",
+    gift: "Chanson de ton choix",
+    text: "Donne-moi une chanson que tu aimes bien, et j'essayerai d'en faire un reprise cool.",
+    type: "text",
     //
     nbCol: 9,//max9
     xStripeTop: 45,
@@ -122,12 +123,12 @@ export const DayList = Object.freeze([
   {
     id: 8,
     date: 9,
-    question: "",
+    question: "Mon premier se trouve au pays basque, mon second est une lettre et mon tout est en rapport avec le cadeau d'aujourd'hui.",
     placeholder: "",
-    answer: "",
-    gift: "Une visite en Dordogne (ou autre)",
-    text: "Une visite organisée le 16 décembre dans le site touristique que tu choisiras. À me communiquer avant ce soir.",
-    type: "",
+    answer: "Angleterre",
+    gift: "Je suis embauché",
+    text: "J'ai eu une réponse hier, comme quoi j'avais été embauché pour une VIA de douze mois renouvelables à Londres, à partir du 15 janvier.",
+    type: "text",
     //
     nbCol: 3,//max9
     xStripeTop: 39,
@@ -137,12 +138,12 @@ export const DayList = Object.freeze([
   {
     id: 9,
     date: 10,
-    question: "",
+    question: "Mon premier est du riz, mon deuxième est de l'eau, mon troisième est du lait, mon tout est un dessert.",
     placeholder: "",
-    answer: "",
+    answer: "Riz au lait",
     gift: "Playlist de trajet",
-    text: "",
-    type: "",
+    text: "Je t'ai préparé une petite playlist pour faire le trajet aujourd'hui.",
+    type: "text",
     //
     nbCol: 6,//max9
     xStripeTop: 58,
@@ -230,8 +231,8 @@ export const DayList = Object.freeze([
     question: "",
     placeholder: "",
     answer: "",
-    gift: "",
-    text: "",
+    gift: "Un petit jeu pour passer le temps",
+    text: "Qu'est-ce que les routes de voyages peuvent être longues et monotones... Avec ça plus d'ennui pour tes prochaines expéditions ! Par contre tu risques énervée de perdre tout le temps... (le cadeau est déjà dans ton sac)",
     type: "",
     //
     nbCol: 4,//max9
@@ -245,7 +246,7 @@ export const DayList = Object.freeze([
     question: "",
     placeholder: "",
     answer: "",
-    gift: "",
+    gift: "Un t-shirt méga cool",
     text: "",
     type: "",
     //
