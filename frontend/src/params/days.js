@@ -153,12 +153,12 @@ export const DayList = Object.freeze([
   {
     id: 10,
     date: 11,
-    question: "",
-    placeholder: "",
-    answer: "",
+    question: "Je suis toujours à l'abri mais pourtant toujours mouillée.",
+    placeholder: "Qui suis-je ?",
+    answer: "langue",
     gift: "Un plat délicieux",
     text: "Le 17 décembre, au déjeuner, je te cuisine le plat QUE TU VEUX. Choisis bien !",
-    type: "",
+    type: "text",
     //
     nbCol: 2,//max9
     xStripeTop: 58,
