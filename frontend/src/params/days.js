@@ -155,7 +155,7 @@ export const DayList = Object.freeze([
     date: 11,
     question: "Je suis toujours à l'abri mais pourtant toujours mouillée.",
     placeholder: "Qui suis-je ?",
-    answer: "langue",
+    answer: "Langue",
     gift: "Un plat délicieux",
     text: "Le 17 décembre, au déjeuner, je te cuisine le plat QUE TU VEUX. Choisis bien !",
     type: "text",
@@ -168,12 +168,12 @@ export const DayList = Object.freeze([
   {
     id: 11,
     date: 12,
-    question: "",
+    question: "Mon premier fait deux, dans mon second on trouve des poissons (en anglais) et mon tout est très apprécié d'Amandine.",
     placeholder: "",
-    answer: "",
-    gift: "Another song",
-    text: "",
-    type: "",
+    answer: "bisou",
+    gift: "Bisous",
+    text: "Deuxième soirée massage ! À utiliser quand tu veux !",
+    type: "text",
     //
     nbCol: 5,//max9
     xStripeTop: 58,
@@ -183,12 +183,12 @@ export const DayList = Object.freeze([
   {
     id: 12,
     date: 13,
-    question: "",
-    placeholder: "",
-    answer: "",
-    gift: "",
-    text: "",
-    type: "",
+    question: "Quelle chanson des Beatles est la préférée de ton incroyable copain ?",
+    placeholder: "Si tu trouves, bravo...",
+    answer: "When I'm sixty four",
+    gift: "Séance de Rock'N'roll",
+    text: "Une séance d'initiation pour danser le rock, offerte par moi-même.",
+    type: "text",
     //
     nbCol: 4,//max9
     xStripeTop: 58,
@@ -198,12 +198,12 @@ export const DayList = Object.freeze([
   {
     id: 13,
     date: 14,
-    question: "",
-    placeholder: "",
-    answer: "",
+    question: "Mon premier est un outil géométrique, mon deuxième n'a pas peur de la neige, mon troisième est associé au nombre 110 et mon tout contient plein de cailloux.",
+    placeholder: "easy celle-là...",
+    answer: "pyrénées",
     gift: "WES",
-    text: "",
-    type: "",
+    text: "Quand tu prépareras tes affaires pour jeudi, prends tes affaires de ski !",
+    type: "text",
     //
     nbCol: 4,//max9
     xStripeTop: 58,
@@ -213,12 +213,12 @@ export const DayList = Object.freeze([
   {
     id: 14,
     date: 15,
-    question: "",
-    placeholder: "",
-    answer: "",
-    gift: "Une jolie boite de maquillage",
-    text: "",
-    type: "",
+    question: "Mon premier est un animal, a une CICATRICE, et est très très méchant, mon second est réputé pour brasser des bières fortes, et a une drôle de coupe et mon tout est un ANIMAL MUSICAL.",
+    placeholder: "hint : l'ANGLAIS peut aider",
+    answer: "scarabée",
+    gift: "Playlist",
+    text: "Petite playlist homemade pour, notamment, le trajet de demain.",
+    type: "text",
     //
     nbCol: 4,//max9
     xStripeTop: 58,
@@ -228,12 +228,12 @@ export const DayList = Object.freeze([
   {
     id: 15,
     date: 16,
-    question: "",
+    question: "Aujourd'hui c'est facile !",
     placeholder: "",
-    answer: "",
-    gift: "Un petit jeu pour passer le temps",
-    text: "Qu'est-ce que les routes de voyages peuvent être longues et monotones... Avec ça plus d'ennui pour tes prochaines expéditions ! Par contre tu risques énervée de perdre tout le temps... (le cadeau est déjà dans ton sac)",
-    type: "",
+    answer: "facile",
+    gift: "Une jolie boite de maquillage",
+    text: "Le cadeau d'aujourd'hui est caché dans ma voiture :)",
+    type: "text",
     //
     nbCol: 4,//max9
     xStripeTop: 58,
@@ -243,12 +243,12 @@ export const DayList = Object.freeze([
   {
     id: 16,
     date: 17,
-    question: "",
+    question: "À quel animal ressembles-tu le plus ?",
     placeholder: "",
-    answer: "",
-    gift: "Un t-shirt méga cool",
-    text: "",
-    type: "",
+    answer: "Cocker",
+    gift: "Un petit jeu pour passer le temps",
+    text: "Qu'est-ce que les routes de voyages peuvent être longues et monotones... Avec ça plus d'ennui pour tes prochaines expéditions ! Par contre tu risques énervée de perdre tout le temps...",
+    type: "text",
     //
     nbCol: 4,//max9
     xStripeTop: 58,
@@ -261,9 +261,9 @@ export const DayList = Object.freeze([
     question: "",
     placeholder: "",
     answer: "",
-    gift: "Toulouse*",
+    gift: "",
     text: "",
-    type: "",
+    type: "text",
     //
     nbCol: 4,//max9
     xStripeTop: 58,
@@ -303,12 +303,12 @@ export const DayList = Object.freeze([
   {
     id: 20,
     date: 21,
-    question: "",
+    question: "Sur quel jeu switch as-tu passé le plus de temps ?",
     placeholder: "",
-    answer: "",
-    gift: "Cactus",
-    text: "",
-    type: "",
+    answer: "animal crossing",
+    gift: "Un t-shirt méga cool",
+    text: "Il y a peu être un cadeau quelque part dans ta chambre...",
+    type: "text",
     //
     nbCol: 4,//max9
     xStripeTop: 58,
@@ -318,12 +318,12 @@ export const DayList = Object.freeze([
   {
     id: 21,
     date: 22,
-    question: "",
+    question: "Mon premier permet de franchir des montagnes, mon deuxième est une langue, mon troisième est parfois premier, parfois dernier, mon quatrième est chargé et mon tout est populaire dans les villes.",
     placeholder: "",
-    answer: "",
-    gift: "",
-    text: "",
-    type: "",
+    answer: "Colocation",
+    gift: "Paris",
+    text: "Ton cadeau reviendra avec moi ce soir...",
+    type: "text",
     //
     nbCol: 4,//max9
     xStripeTop: 58,
@@ -333,12 +333,12 @@ export const DayList = Object.freeze([
   {
     id: 22,
     date: 23,
-    question: "",
+    question: "Mon premier est une forme d'être, mon deuxième est une chanson d'Usher, mon troisième : le pap' en est un et mon tout est un petit .. !",
     placeholder: "",
-    answer: "",
-    gift: "",
-    text: "",
-    type: "",
+    answer: "Etienne",
+    gift: "Bisous",
+    text: "Droit à des bisous une fois dans la journée !",
+    type: "text",
     //
     nbCol: 4,//max9
     xStripeTop: 58,
@@ -348,12 +348,12 @@ export const DayList = Object.freeze([
   {
     id: 23,
     date: 24,
-    question: "",
+    question: "L'endroit où tout a commencé...",
     placeholder: "",
-    answer: "",
+    answer: "Thouars",
     gift: "Zap book",
-    text: "",
-    type: "",
+    text: "Merci d'exister et d'avoir ensoleillé mes journées depuis 3 ans !",
+    type: "text",
     //
     nbCol: 4,//max9
     xStripeTop: 58,
